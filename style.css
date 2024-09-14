@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Rubik;
+}
+
+.container{
+    max-width: 1400px;
+    margin:0 auto ;
+}
+
+header{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    padding-top: 8px;
+}
+
+header ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 76px;
+    
+}
+
+.header-right{
+    display: flex;
+    gap: 60PX;
+    align-items: center;
+}
+
+.active{
+    font-size: 500;
+    border-bottom: 2px solid #5243c2;
+    padding-bottom: 8px;
+}
+
+header button{
+    color: #ff4d4f;
+    background-color: #ffeded;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* hero section */
+
+.hero{
+    display: flex;
+}
+
+.hero-left{
+    max-width: 482px;
+
+}
+
+.hero-left h1{
+    font-size: 72px; 
+    font-weight: 400;
+    
+
+}
+
